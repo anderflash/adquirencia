@@ -1,0 +1,2 @@
+# adquirencia
+Testando Adquirência
