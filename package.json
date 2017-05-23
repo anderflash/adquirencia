@@ -4,7 +4,7 @@
   "description": "Testando Adquirência",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha lib/**/**.spec.js",
     "knex": "knex"
   },
   "repository": {
@@ -23,9 +23,14 @@
     "pg": "^6.2.2"
   },
   "devDependencies": {
+    "@types/chai": "^3.5.2",
     "@types/knex": "0.0.50",
     "@types/koa": "^2.0.39",
+    "@types/mocha": "^2.2.41",
     "@types/pg": "^6.1.40",
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1",
+    "mocha-typescript": "^1.1.4",
     "ts-node": "^3.0.4",
     "typescript": "^2.4.0-dev.20170519"
   }
