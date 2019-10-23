@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/anderflash/adquirencia#readme",
   "dependencies": {
-    "knex": "^0.13.0",
+    "knex": "^0.19.5",
     "koa": "^2.0.0-alpha.8",
     "pg": "^6.2.2"
   },
